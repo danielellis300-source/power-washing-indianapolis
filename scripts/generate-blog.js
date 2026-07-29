@@ -331,18 +331,18 @@ function renderIndexPage() {
 
   const cards = sorted.map(post => {
     const readTime = readTimeMinutes(post.body);
-    return `        <div class="blog-card">
+    return `        <a class="blog-card" href="/blog/${post.slug}">
           <div class="blog-card-meta">
             <span class="category-badge">${escapeHtml(post.category)}</span>
             <span class="blog-card-date">${formatDate(post.publishDate)}</span>
           </div>
-          <h2><a href="/blog/${post.slug}">${escapeHtml(post.title)}</a></h2>
+          <h2>${escapeHtml(post.title)}</h2>
           <p>${escapeHtml(post.dek)}</p>
           <div class="blog-card-meta" style="margin-bottom:0;">
-            <a class="blog-card-link" href="/blog/${post.slug}">Read Article &rarr;</a>
+            <span class="blog-card-link">Read Article &rarr;</span>
             <span class="read-time">${readTime} min read</span>
           </div>
-        </div>`;
+        </a>`;
   }).join('\n');
 
   return `${head}
