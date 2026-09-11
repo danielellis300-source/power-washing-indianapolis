@@ -24,7 +24,7 @@ module.exports = [
   cityLink: { slug: 'carmel', name: 'Carmel' },
   related: ['house-washing-cost-indianapolis', 'driveway-concrete-cleaning-cost-indianapolis', 'how-to-choose-a-pressure-washing-company-in-indianapolis'],
   body: `
-<p>If you've searched "pressure washing cost Indianapolis" and gotten ten different answers, that's because the honest answer really is "it depends." But it doesn't have to be a mystery. After pricing hundreds of jobs across Marion County and the surrounding suburbs, we can give you real ranges instead of a vague "call for pricing."</p>
+<p>If you've searched "pressure washing cost Indianapolis" and gotten ten different answers, that's because the honest answer really is "it depends." But it doesn't have to be a mystery. Here's a breakdown of real ranges for the Marion County area and surrounding suburbs, instead of a vague "call for pricing."</p>
 
 <h2>Typical Indianapolis Pressure Washing Prices by Job</h2>
 <p>Most single-service jobs in the Indianapolis area fall into these ranges:</p>
